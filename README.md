@@ -1,5 +1,11 @@
 # linuxremote
 
+运行软件前首先安装
+
+apt-get install freerdp2-x11 yad
+
+---
+
  打包
  dpkg -b pack/ remoteapp.deb
  
@@ -8,6 +14,8 @@
  
  卸载
  dpkg -r remoteapp.deb
+ 
+ ---
  
 创建桌面快捷方式
 
@@ -18,6 +26,8 @@
 
 
 ![image](https://user-images.githubusercontent.com/33768573/158308133-b085c80a-4989-437a-8a2f-3c9ab07bf486.png)
+
+---
 
 双击运行
 
