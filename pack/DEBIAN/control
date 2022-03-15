@@ -1,0 +1,9 @@
+Package: remoteapp
+Version: 2022.3.15v1
+Section: utils
+Priority: optional
+Architecture: all
+Installed-Size: 1
+Maintainer: sven
+Provides: sven
+Description: linux-windows remote software

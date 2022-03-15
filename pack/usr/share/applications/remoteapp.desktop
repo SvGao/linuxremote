@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=remoteapp
+Version=2022.3.15v1
+Exec=/opt/remoteapp/xfreerdp-gui.sh
+Path=/opt/remoteapp
+Icon=/opt/remoteapp/rdp.png
+Terminal=True
+Type=Application
+Categories=Development;
+StartupNotify=true
