@@ -4,7 +4,7 @@ Section: utils
 Priority: optional
 Architecture: all
 Installed-Size: 1
-Depends: freerdp2-x11,yad
+#Depends: freerdp2-x11,yad
 Maintainer: sven_gao@resourcepro.com.cn
 Provides: sven
 Description: linux-windows remote software
