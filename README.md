@@ -26,9 +26,9 @@
 
 # 软件的运行
 
-运行软件前首先安装 freerdp2-x11 yad
+运行软件前首先安装 freerdp2-x11 yad x11-utils
 
-命令 ：apt-get install freerdp2-x11 yad
+命令 ：apt-get install freerdp2-x11 yad x11-utils
 
 ---
 双击运行
