@@ -69,7 +69,7 @@
           --field="Gateway":CBE $GATEWAY "remoteapp-qd.resourcepro.com.cn,remoteapp-jn.resourcepro.com.cn：8443,remoteapp-hd.resourcepro.com.cn"                \
           --field="Domain" $DOMAIN "resourcepro0"                                                                            \
           --field="BPP":CBE $BPP "8,24,16,32,"                                                                                  \
-          --field="Other Options" $OPTIONS "/multimon /video /audio /gdi:hw /cert:ignore"                                                                                 \
+          --field="Other Options" $OPTIONS "/multimon /video /gdi:hw /gfx-h264:avc444 +gfx-progressive /sound /cert:ignore"                                                                                 \
           --button="Cancel":1 --button="Connect":0)
       [ $? != 0 ] && exit
       COMPUTER=$(echo $FORMULARY   | awk -F '|' '{ print $1 }')
