@@ -85,7 +85,7 @@
                       /u:"$LOGIN"               \
                       /p:"$PASSWORD"            \
                       /g:"$GATEWAY"             \
-					  /d:"$DOMAIN"              \
+		      /d:"$DOMAIN"              \
                       /bpp:$BPP                 \
                       $OPTIONS                 )    
       echo $RES | grep -q "Authentication failure" &&                                                  \
