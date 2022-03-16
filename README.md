@@ -44,3 +44,6 @@
 
 ---
 
+#参数手册
+
+https://www.mankier.com/1/xfreerdp
