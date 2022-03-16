@@ -1,5 +1,9 @@
 # 源脚本的配置
 
+ 下载
+
+ git clone https://github.com/svenplus/linuxremote.git && cd linuxremote
+ 
  打包
  dpkg -b pack/ remoteapp.deb
  
