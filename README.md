@@ -1,12 +1,19 @@
 # 源脚本的配置
 
+ 下载
+
+ git clone https://github.com/svenplus/linuxremote.git && cd linuxremote
+ 
  打包
+ 
  dpkg -b pack/ remoteapp.deb
  
  安装
+ 
  dpkg -i remoteapp.deb
  
  卸载
+ 
  dpkg -r remoteapp.deb
  
  ---
@@ -26,9 +33,9 @@
 
 # 软件的运行
 
-运行软件前首先安装 freerdp2-x11 yad
+运行软件前首先安装 freerdp2-x11 yad x11-utils
 
-命令 ：apt-get install freerdp2-x11 yad
+命令 ：apt-get install freerdp2-x11 yad x11-utils
 
 ---
 双击运行
